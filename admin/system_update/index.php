@@ -1,0 +1,4 @@
+<?php session_start(); require_once __DIR__.'/../../config/helpers.php'; if(!isset($_SESSION['user'])) header('Location: ../login.php'); ?><!doctype html><html><head><meta charset="utf-8"><title>Update System</title></head><body><h2>Update & Backup</h2><div id="status"></div><button id="check">Cek Versi</button><button id="install">Install Update</button><script>
+document.getElementById('check').onclick = ()=> fetch('/simas/admin/system_update/update_checker.php').then(r=>r.json()).then(d=>{ document.getElementById('status').innerText=JSON.stringify(d); });
+document.getElementById('install').onclick = ()=> { if(!confirm('Yakin install update?')) return; fetch('/simas/admin/system_update/update_installer.php').then(r=>r.text()).then(t=>alert(t)); };
+</script></body></html>

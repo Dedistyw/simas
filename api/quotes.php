@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); require_once __DIR__.'/../config/database.php'; $res=$conn->query("SELECT id,teks,penulis FROM quotes WHERE aktif=1 ORDER BY RAND() LIMIT 50"); $out=[]; while($r=$res->fetch_assoc()) $out[]=$r; echo json_encode($out); ?>

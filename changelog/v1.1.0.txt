@@ -1,0 +1,6 @@
+SIMAS BERKAH v1.1.0
+- One-page public + admin
+- Auto-update from GitHub
+- Installer & backup system
+- Notifikasi WA on update
+- Galeri autoplay & quotes rotation

@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); require_once __DIR__.'/../config/database.php'; $res=$conn->query("SELECT id,judul,file,tanggal FROM galeri ORDER BY tanggal DESC LIMIT 50"); $out=[]; while($r=$res->fetch_assoc()) $out[]=$r; echo json_encode($out); ?>

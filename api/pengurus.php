@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); require_once __DIR__.'/../config/database.php'; $res=$conn->query("SELECT nama,jabatan,wa FROM pengurus WHERE status_aktif=1"); $out=[]; while($r=$res->fetch_assoc()) $out[]=$r; echo json_encode($out); ?>

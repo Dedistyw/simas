@@ -1,0 +1,9 @@
+{
+  "latest_version": "v1.1.0",
+  "release_date": "2025-10-18",
+  "changelog_url": "https://raw.githubusercontent.com/hana-dev/simas-berkah/main/changelog/v1.1.0.txt",
+  "download_url": "https://github.com/hana-dev/simas-berkah/raw/main/releases/simas-berkah-v1.1.0.zip",
+  "checksum": "",
+  "developer": "Dedi Setiyawan & M. Hasan Sholeh",
+  "note": "SIMAS BERKAH v1.1.0 - Full package with auto-update & installer"
+}
