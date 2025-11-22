@@ -13,3 +13,4 @@ Auto-update:
 - Place your release zips and manifest in your GitHub repo `hana-dev/simas-berkah` (we provided template earlier).
 - Admin > Update System GUI will check manifest and install updates.
 
+# simas
