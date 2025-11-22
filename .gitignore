@@ -1,0 +1,55 @@
+# SIMAS Project Specific Ignore Rules
+
+# Environment and Configuration
+.env
+.env.*
+config.php
+database.php
+*.config
+
+# Log Files
+*.log
+logs/
+backups/
+system_*.log
+
+# Cache and Temporary Files
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Uploaded Files
+uploads/
+public/uploads/
+galeri/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Backup Files
+backup/
+*.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Framework
+bootstrap/cache/
+storage/framework/
+public/storage
+writable/
