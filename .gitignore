@@ -53,3 +53,5 @@ bootstrap/cache/
 storage/framework/
 public/storage
 writable/
+application/config/config.php
+application/config/database.php
